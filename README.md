@@ -2,6 +2,7 @@ Steps: REMEMBER TO ADJUST THE PATHS
 1. Prepare the corpora in the following formats (very important)
     1. .csv file, each line correspond to one sentence. The line should match between the token and the lemmatised version.
     2. 1 lemmatised and 1 raw file for each lemma
+
 2.Parsed the files using FrameNet_parsed.ipynb or FrameNet_parsed.py
 3. In FrameNet_parsed.ipynb, there are other codes for calculating skipped sentences
 4. To calculate the number of fall-backs from BASE to SMALL, check the log file of FrameNet_parsed.py
